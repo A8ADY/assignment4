@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" type="text/css" href="technews.css" />
+  <title>techNews</title>
+</head>
+
+<body>
+
+  <div id="banner">
+
+    <table>
+      <tbody>
+        <td><a href="">TNews</a> |</td>
+        <td>10/02/2017 |</td>
+        <td><a href="">New</a> |</td>
+        <td><a href="">Comments</a> |</td>
+        <td><a href="">Show</a> |</td>
+        <td><a href="">Ask</a> |</td>
+        <td><a href="">Jobs</a> |</td>
+        <td><a href="">Submit News</a></td>
+      </tbody>
+    </table>
+
+  </div>
+
+  <h1>Main Stories</h1>
+  <label>Sort By: </label>
+  <button type="button" onclick="sortByDate()">Date</button>
+  <button type="button" onclick="sortByScore()">Score</button>
+  <button type="button" onclick="sortByComments()">Comments</button> <br>
+  <button type="button" name="button" onclick="createNewsItemElements()">Fetch</button>
+
+  <div id="content">
+
+    <ul id="stories">
+
+    </ul>
+
+
+  </div>
+
+
+  <hr>
+  <footer>
+    <center>
+      &copy; 2017 HN Inc. All Rights Resrved. <br>
+      <table>
+        <tbody>
+          <td><a href="">Privacy</a> |</td>
+          <td><a href="">Terms of use</a> |</td>
+          <td><a href="">Contact</a></td>
+        </tbody>
+      </table> <br> Written in pure HTML | Hosted by: <a href="">Heroku</a>
+    </center>
+  </footer>
+  <script src="technews.js" charset="utf-8"></script>
+</body>
+
+</html>
